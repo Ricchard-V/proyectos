@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Principal">
+        <menu>
+            <item
+                android:id="@+id/inicio"
+                android:icon="@drawable/ic_wallet_24"
+                android:title="@string/inicio"
+                >
+            </item>
+            <item
+                android:id="@+id/ingresos"
+                android:icon="@drawable/ic_baseline_monetization_on_24"
+                android:title="@string/ingresos"
+                >
+            </item>
+            <item
+                android:id="@+id/gastos"
+                android:icon="@drawable/ic_wallet_24"
+                android:title="@string/gastos"
+                >
+            </item>
+        </menu>
+    </item>
+</menu>

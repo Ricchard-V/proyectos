@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:background="@color/black"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="118dp"
+                    android:text="Descripcion"
+                    android:textColor="@color/white"></TextView>
+
+                <TextView
+                    android:layout_width="111dp"
+                    android:text="Valor"
+                    android:textColor="@color/white"></TextView>
+
+                <TextView
+                    android:layout_width="86dp"
+                    android:text="Periodo"
+                    android:textColor="@color/white"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:background="#8Cff0099"
+                android:padding="25dp">
+
+                <TextView
+                    android:layout_width="118dp"
+                    android:text="Quincena"
+                    android:textColor="@color/white"></TextView>
+
+                <TextView
+                    android:layout_width="111dp"
+                    android:text="1'500.000"
+                    android:textColor="@color/white"></TextView>
+
+                <TextView
+                    android:layout_width="86dp"
+                    android:text="Quincenal"
+                    android:textColor="@color/white"></TextView>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginHorizontal="20dp"
+
+                android:background="#8C000000"
+                android:padding="25dp">
+
+                <TextView
+                    android:layout_width="118dp"
+                    android:text="Bonificacion"
+                    android:textColor="@color/white"></TextView>
+
+                <TextView
+                    android:layout_width="108dp"
+                    android:text="1'000.000"
+                    android:textColor="@color/white"></TextView>
+
+                <TextView
+                    android:layout_width="86dp"
+                    android:text="Extra"
+                    android:textColor="@color/white"></TextView>
+            </TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1058765809306",
+    "firebase_url": "https://cuentaconmigo-a600e-default-rtdb.firebaseio.com",
+    "project_id": "cuentaconmigo-a600e",
+    "storage_bucket": "cuentaconmigo-a600e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058765809306:android:16c46612c1fc97dce1e123",
+        "android_client_info": {
+          "package_name": "com.cuenta.conmigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058765809306-a4f8q956ft42b8aku9ot8fpncrb586mi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cuenta.conmigo",
+            "certificate_hash": "8626194cc5bc5c68e9aa186ceae60b056ff09e1a"
+          }
+        },
+        {
+          "client_id": "1058765809306-75t5igpm9d8fpv67rhb6juu94okfqgg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Zw2TTiq6hpJPcEb5ujTwcarIBU174oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058765809306-75t5igpm9d8fpv67rhb6juu94okfqgg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

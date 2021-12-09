@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".fragments.Formgastos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#afafaf"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/btn_formGastos_new"
+            android:layout_width="139dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:tooltipText="o"
+            android:src="@android:drawable/ic_menu_add" />
+
+        <ImageView
+            android:id="@+id/btn_formGastos_update"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="5dp"
+            android:src="@android:drawable/ic_menu_save" />
+
+        <ImageView
+            android:id="@+id/btn_formGastos_delete"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:src="@android:drawable/ic_menu_delete" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/spinner_foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Foto"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_formGasto_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Titulo"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_formGasto_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint="Descripcion"/>
+
+    <EditText
+        android:id="@+id/txt_formGasto_valor"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="valor"/>
+
+    <EditText
+        android:id="@+id/txt_formGasto_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="fecha"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+</LinearLayout>

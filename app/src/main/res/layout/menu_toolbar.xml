@@ -8,7 +8,9 @@
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="#e9791a"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+        >
 
     </androidx.appcompat.widget.Toolbar>
 
